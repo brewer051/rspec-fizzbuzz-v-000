@@ -1,7 +1,12 @@
-def fizzbuzz(number)
-  if number % 3 == 0 && int % 5 == 0
-   return "FizzBuzz"
+def fizzbuzz(number):
+  1.upto(max).each do |n|
+    line = ''
+    line << 'Fizz' if n % 3 == 0
+    line << 'Buzz' if n % 5 == 0
+    line = n if line.empty?
+    p line
   end
+end
 
   if number % 5 == 0
    return "Buzz"
